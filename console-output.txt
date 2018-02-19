@@ -1,0 +1,31 @@
+> jarvis-testing@1.0.0 dev /Users/morficus/workspace/jarvis-testing
+> webpack-dev-server --inline --progress --config build/webpack.dev.conf.js
+
+ 10% building modules 1/1 modules 0 active[JARVIS] Starting dashboard on: http://localhost:1337
+ 95% emitting
+
+ DONE  Compiled successfully in 4588ms                                                                        20:57:57
+
+ I  Your application is running here: http://localhost:8080
+/Users/morficus/workspace/jarvis-testing/node_modules/serve-static/index.js:121
+      next()
+      ^
+
+TypeError: next is not a function
+    at SendStream.error (/Users/morficus/workspace/jarvis-testing/node_modules/serve-static/index.js:121:7)
+    at emitOne (events.js:116:13)
+    at SendStream.emit (events.js:211:7)
+    at SendStream.error (/Users/morficus/workspace/jarvis-testing/node_modules/send/index.js:270:17)
+    at SendStream.onStatError (/Users/morficus/workspace/jarvis-testing/node_modules/send/index.js:421:12)
+    at onstat (/Users/morficus/workspace/jarvis-testing/node_modules/send/index.js:727:26)
+    at FSReqWrap.oncomplete (fs.js:152:21)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! jarvis-testing@1.0.0 dev: `webpack-dev-server --inline --progress --config build/webpack.dev.conf.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the jarvis-testing@1.0.0 dev script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/morficus/.npm/_logs/2018-02-19T01_58_19_606Z-debug.log
